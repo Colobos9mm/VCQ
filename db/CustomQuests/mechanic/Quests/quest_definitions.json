@@ -1,0 +1,525 @@
+{
+  "6718d7a02e6c9af072bc2bc2": {
+    "QuestName": "Sat-Com Mechanic: Part 1",
+    "_id": "6718d7a02e6c9af072bc2bc2",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6718d7a02e6c9af072bc2bc2 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718d7a0dde82cd3ddd71d52",
+          "index": 1,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "place_SIGNAL_03_1"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718d7a034b030a12b2175b4",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        }  
+      ],
+      "Fail": []
+    },
+    "description": "6718d7a02e6c9af072bc2bc2 description",
+    "failMessageText": "6718d7a02e6c9af072bc2bc2 failMessageText",
+    "name": "6718d7a02e6c9af072bc2bc2 name",
+    "note": "6718d7a02e6c9af072bc2bc2 note",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "location": "5704e554d2720bac5b8b456e",
+    "image": "/files/quest/icon/5ac4d8f186f774422237860d.jpg",
+    "type": "Exploration",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "6718d7a02e6c9af072bc2bc2 description",
+    "successMessageText": "6718d7a02e6c9af072bc2bc2 successMessageText",
+    "templateId": "6718d7a02e6c9af072bc2bc2",
+    "rewards": {
+      "Started": [
+        {
+          "findInRaid": true,
+          "id": "67499ae0db20bcbe520e44e2",
+          "index": 0,
+          "target": "67499ae027b59fdee04f9b74",
+          "type": "Item",
+          "value": "1",
+          "items": [
+            {
+              "_id": "67499ae027b59fdee04f9b74",
+              "_tpl": "5991b51486f77447b112d44f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Success": [
+        {
+          "value": "6000",
+          "id": "67499ae0316ab682bf5a4b50",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.03",
+          "id": "67499ae0f6339197d3c08665",
+          "type": "TraderStanding",
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "index": 1
+        },
+        {
+          "value": "28000",
+          "id": "67499ae01c0f0454511be2b2",
+          "type": "Item",
+          "target": "67499ae0a3b5299183042310",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499ae0a3b5299183042310",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 28000
+              }
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "id": "67499ae09d0d2a5cfb97172f",
+          "type": "Item",
+          "target": "67499ae05d6b6535582e248d",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499ae05d6b6535582e248d",
+              "_tpl": "5c06779c86f77426e00dd782",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "6718d7a0539a58e012ca67d6": {
+    "QuestName": "Sat-Com Mechanic: Part 2",
+    "_id": "6718d7a0539a58e012ca67d6",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6718d7a0539a58e012ca67d6 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718d7a09321d2263cfeaa65",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d0376a486f7747d8050965c"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718d7a0b8301bbe2b8fef0e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6718d7a02e6c9af072bc2bc2",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "description": "6718d7a0539a58e012ca67d6 description",
+    "failMessageText": "6718d7a0539a58e012ca67d6 failMessageText",
+    "name": "6718d7a0539a58e012ca67d6 name",
+    "note": "6718d7a0539a58e012ca67d6 note",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "location": "any",
+    "image": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "6718d7a0539a58e012ca67d6 description",
+    "successMessageText": "6718d7a0539a58e012ca67d6 successMessageText",
+    "templateId": "6718d7a0539a58e012ca67d6",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "7500",
+          "id": "67499ae0b6649dce3b34d82c",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.03",
+          "id": "67499ae08807da33d7b6ebc3",
+          "type": "TraderStanding",
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "index": 1
+        },
+        {
+          "value": "60000",
+          "id": "67499ae06f9e49bfbbbb72e9",
+          "type": "Item",
+          "target": "67499ae0b5fd6c23cf630738",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499ae0b5fd6c23cf630738",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 60000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "67499ae060d5b77dc7907bc3",
+          "type": "Item",
+          "target": "67499ae09e262270d0d87883",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499ae09e262270d0d87883",
+              "_tpl": "5d80c62a86f7744036212b3f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "6718d7a0a2633e94886cb357": {
+    "QuestName": "Sat-Com Mechanic: Part 3",
+    "_id": "6718d7a0a2633e94886cb357",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6718d7a0a2633e94886cb357 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718d7a07c71d2a347990d1d",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5d0375ff86f774186372f685"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718d7a01e746f82cebeab8c",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6718d7a0539a58e012ca67d6",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "description": "6718d7a0a2633e94886cb357 description",
+    "failMessageText": "6718d7a0a2633e94886cb357 failMessageText",
+    "name": "6718d7a0a2633e94886cb357 name",
+    "note": "6718d7a0a2633e94886cb357 note",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "location": "any",
+    "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "6718d7a0a2633e94886cb357 description",
+    "successMessageText": "6718d7a0a2633e94886cb357 successMessageText",
+    "templateId": "6718d7a0a2633e94886cb357",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "8000",
+          "id": "67499ae0866fc091588a152d",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.03",
+          "id": "67499ae048e38ee1b2e8e6d7",
+          "type": "TraderStanding",
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "index": 1
+        },
+        {
+          "value": "45000",
+          "id": "67499bab6cec72ad7464a148",
+          "type": "Item",
+          "target": "67499bab0f6752c815bede48",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499bab0f6752c815bede48",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 45000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "67499bab4baf2a66f0d35d0b",
+          "type": "Item",
+          "target": "67499bab9bf086e8c6f6fa32",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499bab9bf086e8c6f6fa32",
+              "_tpl": "5d03794386f77420415576f5",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "6718d7a0582626559b7d9f72": {
+    "QuestName": "Sat-Com Mechanic: Part 4",
+    "_id": "6718d7a0582626559b7d9f72",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6718d7a0582626559b7d9f72 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718dd78d320903f2ef8ccb3",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [
+                      "5df8ce05b11454561e39243b"				
+				],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67e003c9c59517ba9645b3b9",
+                "target": [
+                  "Shoreline"
+                ]
+              }
+              ]
+            },
+            "id": "6718d7a0cef968cafda194f4",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "8",
+            "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718d7a010190e330e478686",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6718d7a0a2633e94886cb357",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "description": "6718d7a0582626559b7d9f72 description",
+    "failMessageText": "6718d7a0582626559b7d9f72 failMessageText",
+    "name": "6718d7a0582626559b7d9f72 name",
+    "note": "6718d7a0582626559b7d9f72 note",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "location": "5704e554d2720bac5b8b456e",
+    "image": "/files/quest/icon/5b4786c586f7744d184ecabd.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "6718d7a0582626559b7d9f72 description",
+    "successMessageText": "6718d7a0582626559b7d9f72 successMessageText",
+    "templateId": "6718d7a0582626559b7d9f72",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "15000",
+          "id": "67499bab96b8b4b46364f1b3",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.05",
+          "id": "67499bab22edeeafd8ea58c7",
+          "type": "TraderStanding",
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "index": 1
+        },
+        {
+          "value": "45000",
+          "id": "67499babc5b5920975a4344b",
+          "type": "Item",
+          "target": "67499bab95c42ff0d7f27fd8",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499bab95c42ff0d7f27fd8",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 45000
+              }
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "id": "67499babcbf1a0e62671eeb3",
+          "type": "Item",
+          "target": "67499bab2b783499a488bbe1",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499bab2b783499a488bbe1",
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "67499babe929404c862ac7d7",
+          "type": "Item",
+          "target": "67499bab28c3c9637f4ad200",
+          "index": 4,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "67499bab28c3c9637f4ad200",
+              "_tpl": "5ad5d7d286f77450166e0a89",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
+}
