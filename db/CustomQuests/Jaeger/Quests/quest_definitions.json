@@ -457,7 +457,7 @@
                 "id": "6718dd788fde22e724ac0c6d",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "Savage",
+                "target": "AnyPmc",
                 "value": 1,
                 "weapon": [
                       "627e14b21713922ded6f2c15"				
@@ -600,7 +600,7 @@
                 "id": "6718dd782d0a4d8675cfe053",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "Savage",
+                "target": "AnyPmc",
                 "value": 1,
                 "weapon": [
                       "5bfea6e90db834001b7347f3"				
@@ -760,7 +760,7 @@
                 "id": "6718dd784a09e890f456ad33",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "Savage",
+                "target": "AnyPmc",
                 "value": 1,
                 "weapon": [
                       "5df24cf80dee1b22f862e9bc"				
@@ -1050,4 +1050,5 @@
     },
     "side": "Pmc"
   }
+
 }
