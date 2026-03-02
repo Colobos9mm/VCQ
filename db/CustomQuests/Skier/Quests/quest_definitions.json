@@ -30,7 +30,7 @@
                 "id": "6718e69b794e2dff735e887c",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "Savage",
+                "target": "AnyPmc",
                 "value": 1,
                 "weapon": [
                       "5cadfbf7ae92152ac412eeef"				
@@ -1001,4 +1001,5 @@
     },
     "side": "Pmc"
   }
+
 }
